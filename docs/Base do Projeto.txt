@@ -1,0 +1,39 @@
+Quais serão as telas apresentadas no projeto?
+
+1. Tela inicial do Login
+   1.1 Nome do Usuário e Senha
+   1.2 Salvar todas as informações no banco de dados
+   1.3 Primeiro Cadastro
+
+2. Tela inicial do Registro
+   2.1 Pedir o Nome, Email, Senha, Número de Telefone
+   2.2 Salvar todas as informações no banco de dados
+   2.3 Se já tiver uma conta registrada leva-lo para tela de Login
+
+3. Tela principal do site
+   3.1 Mostrar o objetivo do projeto
+   3.2 Mostrar o que é ODS e seus caminhos
+   3.3 Criar rotas destinadas aos caminhos escolhidos 
+   3.4 Configurar e adminitras cada caminho 
+   3.5 Configurar o backend
+
+4. Conta do Usuário
+   4.1 Página destinada a mostrar as informações de login do usuário
+_______________________________________________________
+
+Quais funcionalidades devemos criar para os usuários?
+
+Na página de Login, o usúário tem que conseguir ver as caixas de Nome e Senha.
+Na mesma página tera botões para leval-lo para tela de registro caso não tenha 
+criado uma conta anteriormente, e um botão para recuperar a senha (se der apra fazer).
+
+Na página de Registro, o usuário tem que conseguir ver as caixas de Nome, Email, Senha e 
+Número de telefone.
+Na mesma página tera botões destinados a entrada para tela principal e caso o usuário ja 
+tenha uma conta, será levado direto para página de login.
+
+Na página Principal, será mostrado para o usuário textos sobre o objetivo do projeto, e o que é ODS 
+com seus demnais nixos.
+
+Na página do Usuário, será mostrado suas informações colocadas na tela de 
+Registro e a data de sua entrada.
