@@ -11,8 +11,8 @@ Quais serão as telas apresentadas no projeto?
    2.3 Se já tiver uma conta registrada leva-lo para tela de Login
 
 3. Tela principal do site
-   3.1 Mostrar o objetivo do projeto
-   3.2 Mostrar o que é ODS e seus caminhos
+   3.1 Mostrar como ter uma boa rotina de estudos
+   3.2 Mostrar links para estudos
    3.3 Criar rotas destinadas aos caminhos escolhidos 
    3.4 Configurar e adminitras cada caminho 
    3.5 Configurar o backend
