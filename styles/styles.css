@@ -1,0 +1,83 @@
+:root{
+    --main-color: #e2ab68;
+    --border: 0.1rem solid rgba(100, 70, 70, 0.3);
+    --bg: #edf5fc;   /*mudar a cor depois*/
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;  
+    transition: 0.2s linear;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #000;
+    align-items: center;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 0.2rem solid #d3ad7f;
+    padding-bottom: 0.5;
+    font-size: 2rem;
+}
+
+.logo img {
+    margin: 1rem;
+    cursor: pointer;
+    width: 70px;
+    margin-left: 200px;
+    border-radius: 8px;
+    background-color: var(--bg);
+    transition: filter 0.5s ease;
+}
+
+.logo img:hover {
+    filter: brightness(95%);
+}
+
+.icons img {
+    margin: 1rem;
+    cursor: pointer;
+    margin-right: 200px;
+}
+
+.icons img:hover {
+    width: 40px;
+    height: 40px;
+}
