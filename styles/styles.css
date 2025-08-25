@@ -1,7 +1,8 @@
-:root{
+:root {
     --main-color: #e2ab68;
     --border: 0.1rem solid rgba(100, 70, 70, 0.3);
-    --bg: #edf5fc;   /*mudar a cor depois*/
+    --bg: #d6d3d8;
+    /*mudar a cor depois*/
     font-size: 10px;
 }
 
@@ -11,7 +12,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;  
+    text-transform: capitalize;
     transition: 0.2s linear;
     font-family: "Roboto Mono", monospace;
 }
@@ -33,6 +34,7 @@ body {
     right: 0;
     z-index: 99;
     border-bottom: var(--border);
+    background-color: var(--bg);
 }
 
 .header section {
@@ -68,7 +70,7 @@ body {
 }
 
 .logo img:hover {
-    filter: brightness(95%);
+    filter: brightness(93%);
 }
 
 .icons img {
@@ -80,4 +82,112 @@ body {
 .icons img:hover {
     width: 40px;
     height: 40px;
+}
+
+
+/* Container do dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Botão principal */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* Conteúdo do dropdown (fica escondido) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    z-index: 1;
+}
+
+
+/* Links do dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Mostrar menu quando passa o mouse */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Efeito no botão */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+.home-container {
+    background: url("../img/home-photo.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+    margin-top: 125px;
+    display: flex;
+    align-items: center;
+}
+
+.home-container section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content{ 
+    max-width: 70rem;
+}
+
+.content h3{
+    color: #ffff;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.content p{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.7;
+    padding: 1rem 0;
+    margin-left: 10rem;
+}
+
+.title {
+    font-size: 4rem;
+    color: var(--main-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 18rem;
+}
+
+.title span{
+    color: #000;
+    text-transform: uppercase;
 }
