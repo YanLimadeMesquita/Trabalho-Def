@@ -187,18 +187,10 @@ body {
     border-radius: 6px;
 }
 
-.sidebar .mundo {
-    background: #ffb4c2;
-    color: #890d37;
+.sidebar .port {
+    background: #8ec8fa;
+    color: #2000ae;
     border-radius: 6px;
-
-}
-
-.sidebar .Brasil {
-    background: #d2e7cb;
-    color: #3e8e41;
-    border-radius: 6px;
-    
 }
 
 

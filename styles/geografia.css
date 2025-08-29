@@ -187,16 +187,9 @@ body {
     border-radius: 6px;
 }
 
-.sidebar .mundo {
-    background: #ffb4c2;
-    color: #890d37;
-    border-radius: 6px;
-
-}
-
-.sidebar .Brasil {
-    background: #d2e7cb;
-    color: #3e8e41;
+.sidebar .geo {
+    background: #6cca83;
+    color: #000000;
     border-radius: 6px;
     
 }
