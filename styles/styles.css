@@ -113,9 +113,10 @@ body {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 180px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
+    min-width: 200px;
+    text-align: center;
+    box-shadow: 10px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
     z-index: 1;
 }
 
@@ -131,6 +132,7 @@ body {
 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
+    font-size: 2.1rem;
 }
 
 
@@ -159,25 +161,25 @@ body {
     align-items: center;
 }
 
-.home-container section{
+.home-container section {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.content{ 
+.content {
     max-width: 70rem;
 }
 
-.content h3{
+.content h3 {
     color: #ffff;
     font-size: 6rem;
     margin-bottom: 1rem;
     margin-left: 3rem;
 }
 
-.content p{
+.content p {
     color: #000;
     font-size: 2rem;
     font-weight: 500;
@@ -199,7 +201,7 @@ body {
     margin-bottom: 3rem;
 }
 
-.title span{
+.title span {
     color: #000;
     text-transform: uppercase;
 }
@@ -217,26 +219,46 @@ body {
     padding: 2rem 0rem;
     border-radius: 8px;
     width: 300px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .ciclo .box-container .box img {
     height: 6rem;
     margin-bottom: 1.5rem;
-    transition: transform 0.5s ease; /* suavidade */
+    transition: transform 0.5s ease;
+    /* suavidade */
     cursor: pointer;
 }
 
 .ciclo .box-container .box img:hover {
-  animation: bounce-out-in 0.6s ease forwards;
+    animation: bounce-out-in 0.6s ease forwards;
 }
 
 @keyframes bounce-out-in {
-  0%   { transform: translateY(0); }
-  40%  { transform: translateY(-10px); } /* sobe um pouco */
-  70%  { transform: translateY(0); }     /* volta */
-  85%  { transform: translateY(-10px); } /* pequeno bounce */
-  100% { transform: translateY(0); }     /* posição final */
+    0% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    /* sobe um pouco */
+    70% {
+        transform: translateY(0);
+    }
+
+    /* volta */
+    85% {
+        transform: translateY(-10px);
+    }
+
+    /* pequeno bounce */
+    100% {
+        transform: translateY(0);
+    }
+
+    /* posição final */
 }
 
 .ciclo .box-container .box h3 {

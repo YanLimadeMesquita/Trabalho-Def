@@ -165,30 +165,13 @@ body {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* estilização opcional da barra de rolagem */
-.sidebar::-webkit-scrollbar {
-  width: 2px;
-}
-.sidebar::-webkit-scrollbar-track {
-  background: var(--bg);
-  border-radius: 6px;
-}
-.sidebar::-webkit-scrollbar-thumb {
-  background: #b346d3;
-  border-radius: 4px;
-}
-.sidebar::-webkit-scrollbar-thumb:hover {
-  background: #471b54;
-}
-
-
 .sidebar a {
     display: flex;
     align-items: center;
     padding: 14px 20px;
-    margin-top: 4px;
+    margin-top: 6px;
     text-decoration: none;
-    color: #333;
+    color: #ca1d1d;
     font-weight: 500;
     font-size: 15px;
     transition: background 0.3s, color 0.3s;
@@ -200,12 +183,12 @@ body {
     border-radius: 6px;
 }
 
-.sidebar .sos {
-    background: #ffeaf5;
-    color: #8d4e71;
+.sidebar .bio {
+    background: #bf98f1;
+    color: #000000;
     border-radius: 6px;
-    
 }
+
 
 
 /*--------------------------------------------------------------
