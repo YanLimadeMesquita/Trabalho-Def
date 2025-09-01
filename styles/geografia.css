@@ -131,6 +131,7 @@ body {
 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
+    font-size: 2.1rem;
 }
 
 
@@ -152,28 +153,39 @@ body {
 
 .sidebar {
     position: fixed;
-    top: 123px;
-    /* mesma altura da navbar */
+    top: 123px; /* mesma altura da navbar */
     left: 0;
-    width: 250px;
-    /* ajuste a largura */
-    height: calc(100% - 60px);
-    /* ocupa o resto da tela abaixo da navbar */
-    background-color: #d6d3d8;
-    /* combina com o fundo */
+    width: 300px; /* ajuste a largura */
+    height: 80%; /* ocupa o resto da tela abaixo da navbar */
+    background-color: #d6d3d8; /* combina com o fundo */
     padding: 10px;
-    overflow-y: auto;
-    /* rolagem se precisar */
-    border-right: var(--border);
-    /* opcional: separação visual */
+    box-sizing: border-box;
+    overflow-y: auto; /* rolagem se precisar */
+    border-right: var(--border); /* opcional: separação visual */
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* estilização opcional da barra de rolagem */
+.sidebar::-webkit-scrollbar {
+  width: 2px;
+}
+.sidebar::-webkit-scrollbar-track {
+  background: var(--bg);
+  border-radius: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: #4caf50;
+  border-radius: 4px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #388e3c;
 }
 
 .sidebar a {
     display: flex;
     align-items: center;
-    padding: 14px 20px;
-    margin-top: 4px;
+    padding: 20px 20px;
+    margin-top: 6px;
     text-decoration: none;
     color: #333;
     font-weight: 500;
