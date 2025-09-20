@@ -16,28 +16,28 @@
 <body>
     <header class="header">
         <section>
-            <a href="index.html" class="logo">
+            <a href="../index.html" class="logo">
                 <img src="../img/Estuda_Comigo1.png" alt="logo">
             </a>
 
             <nav class="navbar">
-                <a href="index.html">Home</a>
-                <a href="index.html">Ciclo de Estudos</a>
+                <a href="../index.html">Home</a>
+                <a href="../index.html">Ciclo de Estudos</a>
                 <a href="#">Conta</a>
 
                 <div class="dropdown">
                     <button class="dropbtn">Matérias</button>
                     <div class="dropdown-content">
-                        <a href="matematica.html">Matemática</a>
-                        <a href="geografia.html">Geografia</a>
-                        <a href="historia.html">História</a>
-                        <a href="historia-brasil.html">História do Brasil</a>
-                        <a href="fisica.html">Física</a>
-                        <a href="literatura.html">Literatura</a>
-                        <a href="sociologia.html">Sociologia</a>
-                        <a href="portugues.html">Portugês</a>
-                        <a href="quimica.html">Química</a>
-                        <a href="biologia.html">Biologia</a>
+                        <a href="../matematica.html">Matemática</a>
+                        <a href="../geografia.html">Geografia</a>
+                        <a href="../historia.html">História</a>
+                        <a href="../historia-brasil.html">História do Brasil</a>
+                        <a href="../fisica.html">Física</a>
+                        <a href="../literatura.html">Literatura</a>
+                        <a href="../sociologia.html">Sociologia</a>
+                        <a href="../portugues.html">Portugês</a>
+                        <a href="../quimica.html">Química</a>
+                        <a href="../biologia.html">Biologia</a>
                     </div>
                 </div>
             </nav>
@@ -49,49 +49,144 @@
         </section>
     </header>
 
-    <div class="sidebar-container" id="sidebarContainer">
-        <div class="sidebar">
-            <a href="conteudos-fisica/unidades-medida.html" class="peso">Unidades de Medida</a>
-            <a href="#" class="peso">Movimento e Lançamento</a>
-            <a href="#" class="peso">Dinâmica e Leis de Newton</a>
-            <a href="#" class="peso">Equilíbrio</a>
-            <a href="#" class="peso">Hidrostática</a>
-            <a href="#" class="peso">Trabalho e Energia</a>
-            <a href="#" class="peso">Gravitação</a>
-            <a href="#" class="peso">Termologia</a>
-            <a href="#" class="peso">Óptica Geométrica</a>
-            <a href="#" class="peso">Ondas</a>
-            <a href="#" class="peso">Eletrostática</a>
-            <a href="#" class="peso">Eletrodinãmica</a>
-        </div>
+    <div class="sidebar">
+        <a href="../conteudos-fisica/unidades-medida.html" class="peso">Unidades de Medida</a>
+        <a href="../conteudos-fisica/movimento_lançamento.html" class="peso">Movimento e Lançamento</a>
+        <a href="#" class="peso">Dinâmica e Leis de Newton</a>
+        <a href="#" class="peso">Equilíbrio</a>
+        <a href="#" class="peso">Hidrostática</a>
+        <a href="#" class="peso">Trabalho e Energia</a>
+        <a href="#" class="peso">Gravitação</a>
+        <a href="#" class="peso">Termologia</a>
+        <a href="#" class="peso">Óptica Geométrica</a>
+        <a href="#" class="peso">Ondas</a>
+        <a href="#" class="peso">Eletrostática</a>
+        <a href="#" class="peso">Eletrodinãmica</a>
     </div>
 
 
     <button id="toggle-btn" class="toggle-btn" aria-label="Abrir/Fechar barra lateral" aria-expanded="true">◀</button>
 
-    <div class="main-content" id="mainContent">
-        <div class="titulo-fisica">
-            <h1>Unidades de Medidas </h1>
-            <p>Selecione um tópico no menu lateral para começar seus estudos.</p>
-            <br>
-            <p>Este é o conteúdo principal da página. A sidebar deve deslizar para a esquerda quando você clicar no
-                botão de toggle.</p>
+    <main class="main-container" id="mainContainer">
+        <!-- Título Principal - Posição Fixa -->
+        <h1 class="titulo-fisica">Unidades de Medidas</h1>
+
+        <!-- Seção de Introdução -->
+        <section class="intro-section">
+            <h2>Bem-vindo ao Estudo de Unidades de Medidas</h2>
+            <p>Selecione um tópico abaixo para começar seus estudos.</p>
+        </section>
+
+        <!-- Grid de Conteúdo -->
+        <div class="content-items">
+            <div class="content-card">
+                <h3>Unidades de Massa</h3>
+                <div class="formula-section">
+                    <div class="formula">1 tonelada(t) = 1000 quilogramas (kg)</div>
+                    <div class="formula">1 quilograma(kg) = 1000 gramas (g)</div>
+                    <div class="formula">1 grama(g) = 1000 miligramas (mg)</div>
+                </div>
+                <div class="img-container">
+                    <img src="../img/ordem-de-grandeza-das-massas.webp">
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>Unidades de Volume</h3>
+                <div class="formula-section">
+                    <div class="formula">Metro-Cúbico(mg³) --> 1M³ = 1000L</div>
+                    <div class="formula">Litro(l) ou Decimetro-Cúbico(dm³) --> 1L = 1Dm³// 1L = 1000 mL</div>
+                    <div class="formula">Mililitro(ml) ou Centímetro-Cúbico (cm³) --> 1ml = 1cm³</div>
+                </div>
+                <div class="img-container">
+                    <img src="../img/ordem-de-grandeza-dos-volume.webp">
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>Unidades de Pressão</h3>
+                <div class="formula-section">
+                    <div class="formula">Atmosfera(atm) --> 1ATM</div>
+                    <div class="formula">Milímetro de mercúrio(mmHg) --> 1ATM = 760mmHg</div>
+                    <div class="formula">Centímetro de mercúrio(cmHg) --> 1ATM = 76cmHg</div>
+                    <div class="formula">>Pascal(Pa) ou quilopascal(KPa = 1000 Pa) --> 1ATM = 101,325kPA // 1ATM =
+                        101325PA</div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>Unidades de Temperatura</h3>
+                <div class="formula-section">
+                    <div class="formula">Grau Celsius(°C) usada no Brasil</div>
+                    <div class="formula">Kelvin(K), a unidade oficial do Sistema Internacional (SI)</div>
+                    <div class="formula">Fahrenheit(°F), comum em países de língua inglesa</div>
+                </div>
+                <div class="img-container">
+                    <img src="../img/conv_temp.jpg">
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>Unidades de Comprimento</h3>
+                <div class="formula-section">
+                    <div class="formula">Quilômetro(km) --> 1K = 1000m </div>
+                    <div class="formula">Metro(m) --> 1M = 100cm</div>
+                    <div class="formula">Centímetro(cm) --> 1Cm = 10mm </div>
+                </div>
+                <div class="img-container">
+                    <img src="../img/conversao-de-medida-de-comprimento.webp">
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>Unidades de Energia na forma de Calor</h3>
+                <div class="formula-section">
+                    <div class="formula">Joule(J) ou QuiloJoule (kj = 1000 j) </div>
+                    <div class="formula">Calorias(cal) ou QuiloCalorias (Kcal = 1000 cal)</div>
+                </div>
+                <div class="img-container">
+                    <img src="../img/cal para j.png">
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>Unidades de Tempo</h3>
+                <div class="formula-section">
+                    <div class="formula">Hora(h) --> 1h = 60min</div>
+                    <div class="formula">Min(min) --> 1 min = 60s</div>
+                    <div class="formula">Segundo(s)</div>
+                </div>
+                <div class="img-container">
+                    <img src="../img/ordem-de-grandeza-de-tempo.webp">
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3>Exercícios Práticos</h3>
+                <p>Teste seus conhecimentos com uma variedade de exercícios sobre unidades de medidas.</p>
+                <div class="formula-section">
+                    <div class="formula">✓ Exercícios de conversão</div>
+                    <div class="formula">✓ Problemas do cotidiano</div>
+                    <div class="formula">✓ Questões de múltipla escolha</div>
+                    <div class="formula">✓ Simulados completos</div>
+                </div>
+                <a class="btn" href="https://professor.pucgoias.edu.br/SiteDocente/admin/arquivosUpload/17601/material/Lista%20de%20exerc%C3%ADcios%20-%20Convers%C3%A3o%20de%20medidas.pdf">Exercícios</a>
+            </div>
         </div>
-    </div>
-    </div>
+    </main>
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const sidebar = document.querySelector('.sidebar');
             const toggleBtn = document.getElementById('toggle-btn');
-            const mainContent = document.querySelector('.fis');
+            const mainContent = document.querySelector('.main-container');
 
             let sidebarOpen = true;
 
             function toggleSidebar() {
                 if (sidebarOpen) {
-                    sidebar.style.transform = 'translateX(-250px)';
-                    toggleBtn.style.left = '50px';
+                    sidebar.style.transform = 'translateX(-260px)';
+                    toggleBtn.style.left = '40px';
                     toggleBtn.innerHTML = '▶';
                     if (mainContent) {
                         mainContent.style.marginLeft = '50px';
