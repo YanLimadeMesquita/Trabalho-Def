@@ -48,15 +48,15 @@ COMO USAR:
 FUNCIONALIDADES:
 ================================================================================
 
-✅ Design responsivo (funciona em desktop e mobile)
-✅ Sistema de navegação completo entre páginas
-✅ Barra de progresso dinâmica
-✅ Sidebar com navegação visual
-✅ 4 páginas de conteúdo educacional completo
-✅ Página de resumo final com tabela comparativa
-✅ Cards interativos com hover effects
-✅ Gradientes e cores dinâmicas por seção
-✅ Totalmente funcional sem necessidade de servidor
+Design responsivo (funciona em desktop e mobile)
+Sistema de navegação completo entre páginas    
+Barra de progresso dinâmica
+Sidebar com navegação visual
+4 páginas de conteúdo educacional completo
+Página de resumo final com tabela comparativa
+Cards interativos com hover effects
+Gradientes e cores dinâmicas por seção
+Totalmente funcional sem necessidade de servidor
 
 ================================================================================
 ESTRUTURA DO CONTEÚDO:
@@ -109,10 +109,10 @@ TECNOLOGIAS UTILIZADAS:
 COMPATIBILIDADE:
 ================================================================================
 
-✅ Chrome / Edge / Opera (recomendado)
-✅ Firefox
-✅ Safari
-✅ Mobile browsers
+Chrome / Edge / Opera (recomendado)
+Firefox
+Safari
+Mobile browsers
 
 IMPORTANTE: Não requer servidor web - funciona diretamente do sistema de arquivos!
 
@@ -126,22 +126,6 @@ NOTAS TÉCNICAS:
 4. Sistema de cores consistente
 5. Performance otimizada (sem dependências externas pesadas)
 6. Acessibilidade básica implementada
-
-================================================================================
-CUSTOMIZAÇÃO:
-================================================================================
-
-Para customizar o conteúdo:
-1. Abra os arquivos .js em um editor de texto
-2. Localize as seções de dados (arrays com informações)
-3. Modifique o conteúdo conforme necessário
-4. Salve e recarregue a página no navegador
-
-Para customizar as cores:
-1. Abra os arquivos .css
-2. Localize as variáveis CSS no início (--primary, --background, etc.)
-3. Modifique as cores em hexadecimal
-4. Salve e recarregue
 
 ================================================================================
 CONTATO E SUPORTE:
