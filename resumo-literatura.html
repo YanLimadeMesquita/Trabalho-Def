@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo de Literatura - ENEM Prep</title>
+    <link rel="stylesheet" href="resumo-literatura.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+</head>
+<body>
+    <!-- Header dinâmico (muda com a página atual) -->
+    <div class="page-header" id="pageHeader">
+        <div class="container">
+            <a href="linguagens.html" class="back-button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Voltar para Linguagens e Códigos
+            </a>
+            
+            <div class="breadcrumb" id="breadcrumb"></div>
+            
+            <h1 class="header-title" id="headerTitle"></h1>
+            
+            <div class="header-meta" id="headerMeta"></div>
+            
+            <!-- Mini barra de progresso no header -->
+            <div class="progress-mini">
+                <div class="progress-info">
+                    <span>Progresso do módulo</span>
+                    <span class="progress-percent" id="progressPercent">0%</span>
+                </div>
+                <div class="progress-bar-mini">
+                    <div class="progress-fill-mini" id="progressFillMini"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <div class="content-layout">
+            <!-- Conteúdo principal -->
+            <div class="main-content">
+                <div id="contentArea"></div>
+                
+                <!-- Botão de próxima página -->
+                <div class="next-button-container">
+                    <button class="next-button" id="nextButton" onclick="goToNextPage()">
+                        <span id="nextButtonText">Próximo</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Sidebar de navegação -->
+            <aside class="sidebar">
+                <!-- Progresso -->
+                <div class="progress-card">
+                    <div class="progress-header">
+                        <h3>Progresso do módulo</h3>
+                        <span class="progress-value" id="progressValue">25%</span>
+                    </div>
+                    <p class="progress-text" id="progressText">1 de 4 resumos lidos</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+                
+                <!-- Navegação -->
+                <div class="nav-card">
+                    <h3 class="nav-title">Neste módulo</h3>
+                    <nav class="nav-list" id="navList"></nav>
+                </div>
+                
+                <!-- Dica -->
+                <div class="tip-card" id="tipCard">
+                    <p>Continue lendo os resumos abaixo para aumentar seu progresso</p>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <script src="resumo-literatura.js"></script>
+</body>
+</html>
