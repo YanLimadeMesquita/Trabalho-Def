@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagens e Códigos - ENEM Prep</title>
+    <link rel="stylesheet" href="linguagens.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+</head>
+<body>
+    <!-- Header com Gradiente -->
+    <div class="page-header">
+        <div class="container">
+            <a href="index.html" class="back-button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Voltar para matérias
+            </a>
+            
+            <div class="header-content">
+                <div class="header-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="header-title">Linguagens e Códigos</h1>
+                    <p class="header-subtitle">Português, Literatura, Língua Estrangeira e mais</p>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-value">127</div>
+                    <div class="stat-label">Videoaulas</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value">65</div>
+                    <div class="stat-label">Resumos</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value">45h</div>
+                    <div class="stat-label">De conteúdo</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Gratuito</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabs de Conteúdo -->
+    <div class="container">
+        <div class="tabs-container">
+            <div class="tabs">
+                <button class="tab-button active" onclick="switchTab('videoaulas')">Videoaulas</button>
+                <button class="tab-button" onclick="switchTab('resumos')">Resumos</button>
+            </div>
+            
+            <!-- Tab Panel: Videoaulas -->
+            <div id="videoaulas-panel" class="tab-panel active">
+                <div class="panel-header">
+                    <h2 class="panel-title">Videoaulas Disponíveis</h2>
+                    <p class="panel-description">Assista às aulas completas sobre os principais tópicos</p>
+                </div>
+                <div class="content-grid" id="videoaulasGrid"></div>
+            </div>
+            
+            <!-- Tab Panel: Resumos -->
+            <div id="resumos-panel" class="tab-panel">
+                <div class="panel-header">
+                    <h2 class="panel-title">Resumos e Material de Apoio</h2>
+                    <p class="panel-description">Material escrito para revisão e consulta rápida</p>
+                </div>
+                <div class="content-grid" id="resumosGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="linguagens.js"></script>
+</body>
+</html>
